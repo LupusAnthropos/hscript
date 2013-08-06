@@ -1,0 +1,47 @@
+{
+  "author": "Lupus Anthropos",
+	"site": "http://facebook.com/HolaUnblockerScripts",
+	"name": "FoodNetwork",
+	"description": "Unblocks Food Network",
+	"unblocker_rules": {
+		"FoodNetwork": {
+			"description": "Watch blocked FoodNetwork videos",
+			"link": "foodnetwork.com",
+			"root_url": [
+				"**.foodnetwork.com"
+			],
+			"icon": "",
+			"os": [
+				"windows",
+				"android"
+			],
+			"cmds": [
+				{
+					"hosts": [
+						"foodnetwork.com",
+						"web.foodnetwork.com",
+						"www.foodnetwork.com",
+						"images.foodnetwork.com",
+						"img.foodnetwork.com",
+						"watch.foodnetwork.com",
+						"foodnetwork.sndimg.com",
+						"ajax.googleapis.com",
+						"c.betrad.com",
+						"l.betrad.com",
+						"sndimg.com",
+						"img.diynetwork.com",
+						"cti.w55c.net",
+						"revsci.net",
+						"adsremote.scrippsnetworks.com",
+						"images.scrippsnetworks.com",
+						"common.scrippsnetworks.com",
+						"searchservices.scrippsnetworks.com",
+						"scrippscontroller.com",
+						"tags.w55c.net"
+					],
+					"then": "PROXY US"
+				}
+			]
+		}
+	}
+}
